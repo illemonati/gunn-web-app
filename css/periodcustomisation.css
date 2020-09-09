@@ -1,116 +1,116 @@
 .customiser-wrapper {
-  display: flex;
-  margin: 20px 0;
+    display: flex;
+    margin: 20px 0;
 }
 button.customiser-colour {
-  width: 36px;
-  background-size: cover;
-  background-position: center;
+    width: 36px;
+    background-size: cover;
+    background-position: center;
 }
 .inputs-wrapper {
-  display: flex;
-  flex: auto;
+    display: flex;
+    flex: auto;
 }
 .customiser-inputwrapper {
-  position: relative;
-  flex: auto;
-  margin-left: 20px;
-  line-height: 1;
+    position: relative;
+    flex: auto;
+    margin-left: 20px;
+    line-height: 1;
 }
 .customiser-inputwrapper.input-disabled {
-  color: var(--disabled);
+    color: var(--disabled);
 }
 @media (max-width: 500px) {
-  .inputs-wrapper {
-    flex-direction: column;
-  }
-  .inputs-wrapper > .customiser-inputwrapper {
-    height: 36px;
-    margin-top: -12px;
-    margin-bottom: 6px;
-    transition: margin 0.2s;
-  }
-  .inputs-wrapper > .customiser-inputwrapper.filled,
-  .inputs-wrapper > .customiser-inputwrapper.focus {
-    margin-top: 5px;
-    margin-bottom: 12px;
-  }
+    .inputs-wrapper {
+        flex-direction: column;
+    }
+    .inputs-wrapper > .customiser-inputwrapper {
+        height: 36px;
+        margin-top: -12px;
+        margin-bottom: 6px;
+        transition: margin 0.2s;
+    }
+    .inputs-wrapper > .customiser-inputwrapper.filled,
+    .inputs-wrapper > .customiser-inputwrapper.focus {
+        margin-top: 5px;
+        margin-bottom: 12px;
+    }
 }
 .customiser-label {
-  font-size: 16px;
-  position: absolute;
-  top: 16px;
-  height: 1em;
-  transition: all 0.2s;
-  pointer-events: none;
-  color: var(--secondary);
+    font-size: 16px;
+    position: absolute;
+    top: 16px;
+    height: 1em;
+    transition: all 0.2s;
+    pointer-events: none;
+    color: var(--secondary);
 }
 .customiser-inputwrapper.filled .customiser-label {
-  font-size: 12px;
-  top: -4px;
+    font-size: 12px;
+    top: -4px;
 }
 .customiser-inputwrapper.focus .customiser-label {
-  font-size: 12px;
-  color: var(--theme);
-  top: -4px;
+    font-size: 12px;
+    color: var(--theme);
+    top: -4px;
 }
 .customiser-inputwrapper.input-disabled .customiser-label {
-  color: var(--disabled);
+    color: var(--disabled);
 }
 body.light .customiser-inputwrapper.focus .customiser-label {
-  opacity: 0.87;
+    opacity: 0.87;
 }
 .customiser-input {
-  font-size: 16px;
-  background: none;
-  padding: 0;
-  border: 0;
-  position: absolute;
-  color: inherit;
-  top: 16px;
-  cursor: pointer;
-  width: 100%;
+    font-size: 16px;
+    background: none;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    color: inherit;
+    top: 16px;
+    cursor: pointer;
+    width: 100%;
 }
 .customiser-line {
-  position: absolute;
-  border-top: 1px solid var(--input-line);
-  top: 32px;
-  margin-top: 8px;
-  width: 100%;
-  transition: all 0.2s;
-  pointer-events: none;
+    position: absolute;
+    border-top: 1px solid var(--input-line);
+    top: 32px;
+    margin-top: 8px;
+    width: 100%;
+    transition: all 0.2s;
+    pointer-events: none;
 }
 .customiser-inputwrapper.hover .customiser-line {
-  border-top: 2px solid currentColor;
+    border-top: 2px solid currentColor;
 }
 .customiser-inputwrapper.focus .customiser-line {
-  border-top: 2px solid var(--theme);
+    border-top: 2px solid var(--theme);
 }
 .customiser-inputwrapper.input-disabled .customiser-line {
-  border-top: 1px dashed var(--disabled);
+    border-top: 1px dashed var(--disabled);
 }
 .customiser-colourwrapper {
-  width: 133.75px;
-  margin-right: -6.75px;
-  margin-top: 5.25px;
+    width: 133.75px;
+    margin-right: -6.75px;
+    margin-top: 5.25px;
 }
 .customiser-materialcolour {
-  margin-right: 6.75px;
-  margin-top: 6.75px;
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: var(--pure-contrast);
+    margin-right: 6.75px;
+    margin-top: 6.75px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--pure-contrast);
 }
 
 .customiser-image {
-  height: 36px;
-  margin: 0;
-  transition: margin-top 0.2s;
+    height: 36px;
+    margin: 0;
+    transition: margin-top 0.2s;
 }
 .customiser-image.filled,
 .customiser-image.focus {
-  margin-top: 15px;
+    margin-top: 15px;
 }

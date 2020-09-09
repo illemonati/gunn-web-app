@@ -4,9 +4,9 @@
 
 2. Set `ALT_KEY` in **js/main.js** to a new localStorage key name to store alternate schedules in. It can follow this format: `[gunn-web-app] alts.20xx-xx`.
 
-- You should set `LAST_YEARS_ALT_KEY` in **js/main.js** to last year's `ALT_KEY` so that it clears the stored alternate schedules.
+-   You should set `LAST_YEARS_ALT_KEY` in **js/main.js** to last year's `ALT_KEY` so that it clears the stored alternate schedules.
 
-- **NOTE: You might not want to do this until after the school has released alternate schedules on their Google Calendar**, so it only force updates when it's ready.
+-   **NOTE: You might not want to do this until after the school has released alternate schedules on their Google Calendar**, so it only force updates when it's ready.
 
 3. Update `datePickerRange` in **js/schedule.js** to have the first and last days of the school year. Note that months are zero-indexed here, so August would be `m:7`. (This is for... the date picker range.)
 

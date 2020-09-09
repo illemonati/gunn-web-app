@@ -12,15 +12,15 @@ Safari; it'd be a miracle if it worked on other browsers too).
 
 and their faults:
 
-- [**Gunn Schedule**](https://orbiit.github.io/gunn-web-app/schedule/) — doesn't
-  work offline, uses jQuery and Materialize, no alternate schedules, only light
-  theme
-- [**Unofficial Gunn Web App** / UGWA](https://orbiit.github.io/gunn-web-app/) —
-  doesn't use service workers
-- [**Ugwita** / UGWA Lite](https://orbiit.github.io/gunn-web-app/lite/) — only
-  shows schedule, ugly
-- [**Ugwa 2**](https://orbiit.github.io/ugwa2/) — "not done"
-- [**Ugwisha**](https://orbiit.github.io/ugwisha/) — not as featureful as UGWA
+-   [**Gunn Schedule**](https://orbiit.github.io/gunn-web-app/schedule/) — doesn't
+    work offline, uses jQuery and Materialize, no alternate schedules, only light
+    theme
+-   [**Unofficial Gunn Web App** / UGWA](https://orbiit.github.io/gunn-web-app/) —
+    doesn't use service workers
+-   [**Ugwita** / UGWA Lite](https://orbiit.github.io/gunn-web-app/lite/) — only
+    shows schedule, ugly
+-   [**Ugwa 2**](https://orbiit.github.io/ugwa2/) — "not done"
+-   [**Ugwisha**](https://orbiit.github.io/ugwisha/) — not as featureful as UGWA
 
 Please give us your ideas/suggestions! :D
 
@@ -33,86 +33,86 @@ directly open
 source HTML) in a browser. You can then view the Sources tab in inspect element
 to see all the relevant source files used by UGWA:
 
-- **HTML** — `/appdesign.html`
+-   **HTML** — `/appdesign.html`
 
-- **CSS** — `/css/index.css`, linked by appdesign.html, which imports the other
-  CSS files using `@import`:
+-   **CSS** — `/css/index.css`, linked by appdesign.html, which imports the other
+    CSS files using `@import`:
 
-  - `/css/assignments.css` — assignments
+    -   `/css/assignments.css` — assignments
 
-  - `/css/colourpicker.css` — colour picker
+    -   `/css/colourpicker.css` — colour picker
 
-  - `/css/datepicker.css` — date picker
+    -   `/css/datepicker.css` — date picker
 
-  - `/css/material.css` — Material design components like the ripple, buttons,
-    switches, radios, and sliders EXCEPT for inputs (see below)
+    -   `/css/material.css` — Material design components like the ripple, buttons,
+        switches, radios, and sliders EXCEPT for inputs (see below)
 
-  - `/css/periodcustomisation.css` — Material input and other required
-    components for the period customisation options
+    -   `/css/periodcustomisation.css` — Material input and other required
+        components for the period customisation options
 
-  - `/schedule/schedule.css` — schedule, specifically anything in the `<div class="schedule-container">` element (**NOTE**: this is in a different
-    folder)
+    -   `/schedule/schedule.css` — schedule, specifically anything in the `<div class="schedule-container">` element (**NOTE**: this is in a different
+        folder)
 
-  - `/css/main.css` — everything else
+    -   `/css/main.css` — everything else
 
-- **JS** — `/js/main.js`, linked by appdesign.html, which is an ES module that
-  imports the other JS files:
+-   **JS** — `/js/main.js`, linked by appdesign.html, which is an ES module that
+    imports the other JS files:
 
-  - `/js/altScheduleGenerator.js?for=appdesign` — alternate schedule parsing
-    from the school's Google Calendar (note that the same file is used by
-    Ugwita)
+    -   `/js/altScheduleGenerator.js?for=appdesign` — alternate schedule parsing
+        from the school's Google Calendar (note that the same file is used by
+        Ugwita)
 
-  - `/js/assignments.js` — assignments
+    -   `/js/assignments.js` — assignments
 
-  - `/js/barcodes.js` — student ID generator in the Utilities section
+    -   `/js/barcodes.js` — student ID generator in the Utilities section
 
-  - `/js/code39.js` — barcode rendering using [Code
-    39](https://en.wikipedia.org/wiki/Code_39)
+    -   `/js/code39.js` — barcode rendering using [Code
+        39](https://en.wikipedia.org/wiki/Code_39)
 
-  - `/js/colour.js` — colour picker
+    -   `/js/colour.js` — colour picker
 
-  - `/js/date.js` — date picker
+    -   `/js/date.js` — date picker
 
-  - `/js/footer.js` — the bottom navbar and showing/hiding sections
+    -   `/js/footer.js` — the bottom navbar and showing/hiding sections
 
-  - `/js/l10n.js` — allow translating UGWA by using translation strings
+    -   `/js/l10n.js` — allow translating UGWA by using translation strings
 
-  - `/js/languages/` has translation files for English (`en.js`), French
-    (`fr.js`), and Google Translated English (`en-gt.js`); there are also other
-    languages that can be accessed by adding `?all-langs` to the URL
+    -   `/js/languages/` has translation files for English (`en.js`), French
+        (`fr.js`), and Google Translated English (`en-gt.js`); there are also other
+        languages that can be accessed by adding `?all-langs` to the URL
 
-  - `/js/lists.js` — club and staff lists
+    -   `/js/lists.js` — club and staff lists
 
-  - `/js/material.js` — animations and functionality for Material design
-    components like the ripple, inputs, and dropdowns
-  - `/js/saved-clubs.js` — centralized manager for saved clubs
+    -   `/js/material.js` — animations and functionality for Material design
+        components like the ripple, inputs, and dropdowns
+    -   `/js/saved-clubs.js` — centralized manager for saved clubs
 
-  - `/js/utils.js` — constants and utility functions; getting the current time
-    is centralized here so it's easier to simulate a specific time
+    -   `/js/utils.js` — constants and utility functions; getting the current time
+        is centralized here so it's easier to simulate a specific time
 
-  - `/touchy/rotate1.js` — zoom/rotation/pan interactions for the image campus
-    map
+    -   `/touchy/rotate1.js` — zoom/rotation/pan interactions for the image campus
+        map
 
-  - `/js/app.js` — re-exports `/schedule/app.js`, which is in a separate folder
-    for some reason
+    -   `/js/app.js` — re-exports `/schedule/app.js`, which is in a separate folder
+        for some reason
 
-  - `/schedule/app.js` — renders the schedule and anything time-related
-    regarding the schedule (eg notifications and updating the tab title)
+    -   `/schedule/app.js` — renders the schedule and anything time-related
+        regarding the schedule (eg notifications and updating the tab title)
 
-  - `/js/schedule.js` — anything remotely related to the schedule, such as
-    personalisation options, editing assignments, events, the week preview,
-    saving/loading/fetching alternate schedules, etc.
+    -   `/js/schedule.js` — anything remotely related to the schedule, such as
+        personalisation options, editing assignments, events, the week preview,
+        saving/loading/fetching alternate schedules, etc.
 
-  - `/js/main.js` — everything else
+    -   `/js/main.js` — everything else
 
-- **IMAGES**:
+-   **IMAGES**:
 
-  - `/js/gunn-together.svg` — the animated SVG used for unknown Gunn Together
-    periods
+    -   `/js/gunn-together.svg` — the animated SVG used for unknown Gunn Together
+        periods
 
-  - `/js/images/newmap.min.png` — the map
+    -   `/js/images/newmap.min.png` — the map
 
-  - `/favicon/` — creates cool embeds for when UGWA is linked on other platforms
+    -   `/favicon/` — creates cool embeds for when UGWA is linked on other platforms
 
 After modifying UGWA's code, you can minify everything by doing
 
@@ -142,7 +142,7 @@ const start = Date.now()
 const baseTime = new Date(2020, 8, 9, 11, 0).getTime()
 const speed = 100
 setCurrentTime(() => {
-  return (Date.now() - start) * speed + baseTime
+    return (Date.now() - start) * speed + baseTime
 })
 ```
 

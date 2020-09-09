@@ -1,154 +1,154 @@
 .schedule-container {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 10px;
-  font-size: 0;
-  line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 0;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 .schedule-container .schedule-dayname {
-  font-weight: normal;
-  font-size: 60px;
-  margin: 0;
-  text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
 }
 .schedule-container .schedule-date {
-  font-weight: normal;
-  font-size: 20px;
-  margin: 0;
-  text-align: center;
-  margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .totally-not-a-link {
-  color: inherit;
+    color: inherit;
 }
 .schedule-container .schedule-alternatemsg,
 .schedule-container .schedule-noschool,
 .schedule-container .schedule-end {
-  font-size: 14px;
-  text-align: center;
-  display: block;
+    font-size: 14px;
+    text-align: center;
+    display: block;
 }
 body.light .schedule-container .schedule-alternatemsg,
 body.light .schedule-container .schedule-noschool {
-  color: rgba(0, 0, 0, 0.54);
+    color: rgba(0, 0, 0, 0.54);
 }
 body.dark .schedule-container .schedule-alternatemsg,
 body.dark .schedule-container .schedule-noschool {
-  color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 .schedule-container .schedule-noschool {
-  margin: 15px 0;
+    margin: 15px 0;
 }
 .schedule-container .schedule-endingin {
-  font-size: 14px;
+    font-size: 14px;
 }
 .schedule-endinginperiod {
-  padding: 5px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 2px;
-  background-size: cover;
-  background-position: center;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+    padding: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 .schedule-container .schedule-periodprogress {
-  height: 4px;
-  margin: 10px 0;
-  border-radius: 2px;
-  overflow: hidden;
+    height: 4px;
+    margin: 10px 0;
+    border-radius: 2px;
+    overflow: hidden;
 }
 body.light .schedule-container .schedule-periodprogress {
-  background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 body.dark .schedule-container .schedule-periodprogress {
-  background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .schedule-container .schedule-periodprogress > div {
-  height: 100%;
-  border-radius: 2px;
+    height: 100%;
+    border-radius: 2px;
 }
 body.light .schedule-container .schedule-periodprogress > div {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 body.dark .schedule-container .schedule-periodprogress > div {
-  background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .schedule-container .schedule-period {
-  margin: 14px 0;
-  padding: 24px;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
-  font-size: 14px;
-  background-size: cover;
-  background-position: center;
+    margin: 14px 0;
+    padding: 24px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    background-size: cover;
+    background-position: center;
 }
 .schedule-container .schedule-period > span {
-  display: block;
+    display: block;
 }
 .schedule-container .schedule-periodname {
-  font-size: 24px;
-  font-weight: 300;
-  margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
 }
 .schedule-container .pd-btns {
-  float: right;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.2s;
+    float: right;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s;
 }
 .schedule-container .pd-btns .material-icons {
-  overflow: visible;
+    overflow: visible;
 }
 .schedule-container .pd-btn {
-  margin-left: 10px;
-  color: inherit;
-  text-shadow: inherit;
+    margin-left: 10px;
+    color: inherit;
+    text-shadow: inherit;
 }
 .schedule-container .schedule-period:hover .pd-btns,
 .tab-focus .schedule-container .schedule-period:focus-within .pd-btns {
-  opacity: 1;
-  pointer-events: all;
+    opacity: 1;
+    pointer-events: all;
 }
 .schedule-container .schedule-period.gunn-together {
-  background-image: url('../images/gunn-together.svg') !important;
-  background-size: 100px;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    background-image: url('../images/gunn-together.svg') !important;
+    background-size: 100px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 .gt-confuse {
-  background-image: linear-gradient(
-    120deg,
-    #f44336,
-    #9c27b0,
-    #2196f3,
-    #009688,
-    #4caf50,
-    #ffeb3b,
-    #ff9800,
-    #f44336
-  );
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(
+        120deg,
+        #f44336,
+        #9c27b0,
+        #2196f3,
+        #009688,
+        #4caf50,
+        #ffeb3b,
+        #ff9800,
+        #f44336
+    );
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 .gunn-together-badge {
-  display: inline-flex;
-  align-items: center;
-  height: 32px;
-  padding: 0 12px;
-  border-radius: 16px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  position: relative;
-  z-index: 0;
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 0;
 }
 .gunn-together-badge::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background-color: currentColor;
-  opacity: 0.2;
-  border-radius: 16px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: currentColor;
+    opacity: 0.2;
+    border-radius: 16px;
 }

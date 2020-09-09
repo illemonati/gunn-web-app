@@ -3,60 +3,105 @@
   "html/24h": [],
   "html/about": [],
   "html/add-barcode": [],
-  "html/add-home": ["share-icon", "add-home", "add-home-img", "add"],
+  "html/add-home": [
+    "share-icon",
+    "add-home",
+    "add-home-img",
+    "add"
+  ],
   "html/add-ugwa": [],
   "html/allow-swipe": [],
-  "html/android-instruct": ["name"],
+  "html/android-instruct": [
+    "name"
+  ],
   "html/announcements": [],
   "html/asgn-after": [],
   "html/asgn-algorithms": [],
   "html/asgn-before": [],
-  "html/asgn-buttons": ["delete", "cancel", "save"],
+  "html/asgn-buttons": [
+    "delete",
+    "cancel",
+    "save"
+  ],
   "html/asgn-chrono-primero": [],
   "html/asgn-display": [],
   "html/asgn-important-importance": [],
   "html/asgn-none": [],
-  "html/asgn-period-date": ["period", "date"],
+  "html/asgn-period-date": [
+    "period",
+    "date"
+  ],
   "html/asgn-sort": [],
   "html/assignments": [],
   "html/assync": [],
   "html/assync-desc": [],
   "html/barcode": [],
-  "html/barcode-desc": ["wikipedia"],
+  "html/barcode-desc": [
+    "wikipedia"
+  ],
   "html/browsers": [],
   "html/bugs": [],
-  "html/category": ["category"],
-  "html/chromebook-instruct": ["name"],
+  "html/category": [
+    "category"
+  ],
+  "html/chromebook-instruct": [
+    "name"
+  ],
   "html/close": [],
   "html/club-list": [],
   "html/club-name": [],
   "html/clubs": [],
-  "html/clubs-disclaimer": ["link"],
+  "html/clubs-disclaimer": [
+    "link"
+  ],
   "html/comm": [],
   "html/control-centre": [],
   "html/control-centre-desc": [],
   "html/credits": [],
-  "html/current-grade": ["input"],
+  "html/current-grade": [
+    "input"
+  ],
   "html/dark-theme": [],
-  "html/desktop-instruct": ["name"],
+  "html/desktop-instruct": [
+    "name"
+  ],
   "html/disable-lists": [],
   "html/edit-asgn": [],
   "html/errors": [],
   "html/export-copy": [],
   "html/export-file": [],
   "html/feature-based": [],
-  "html/finals-worth": ["input"],
-  "html/gmaps-instruct": ["for"],
+  "html/finals-worth": [
+    "input"
+  ],
+  "html/gmaps-instruct": [
+    "for"
+  ],
   "html/h-editor": [],
   "html/heaucques": [],
-  "html/henry-creds": ["name"],
+  "html/henry-creds": [
+    "name"
+  ],
   "html/hide-preps": [],
-  "html/image-instruct": ["for"],
-  "html/import-file": ["file", "import"],
-  "html/importance": ["low", "medium", "high"],
+  "html/image-instruct": [
+    "for"
+  ],
+  "html/import-file": [
+    "file",
+    "import"
+  ],
+  "html/importance": [
+    "low",
+    "medium",
+    "high"
+  ],
   "html/intent": [],
-  "html/ios-instruct": ["name"],
-  "html/kevin-creds": ["name"],
+  "html/ios-instruct": [
+    "name"
+  ],
+  "html/kevin-creds": [
+    "name"
+  ],
   "html/kill-sw": [],
   "html/languages": [],
   "html/light-theme": [],
@@ -65,21 +110,36 @@
   "html/loading-assync": [],
   "html/lonely": [],
   "html/map": [],
-  "html/martin-ad": ["ad"],
-  "html/material": ["link"],
-  "html/min-grade": ["input"],
+  "html/martin-ad": [
+    "ad"
+  ],
+  "html/material": [
+    "link"
+  ],
+  "html/min-grade": [
+    "input"
+  ],
   "html/minscore": [],
   "html/msg-note": [],
   "html/naw": [],
   "html/neither-theme": [],
   "html/new": [],
   "html/no-hour": [],
-  "html/not-using-assync": ["create", "id", "join"],
-  "html/notif-time-before": ["time"],
+  "html/not-using-assync": [
+    "create",
+    "id",
+    "join"
+  ],
+  "html/notif-time-before": [
+    "time"
+  ],
   "html/numbers": [],
   "html/ok": [],
   "html/open-chat": [],
-  "html/open-link-before": ["time", "emphasis"],
+  "html/open-link-before": [
+    "time",
+    "emphasis"
+  ],
   "html/options": [],
   "html/other-apps": [
     "tga-ios",
@@ -88,12 +148,20 @@
     "nugwa",
     "hw-central"
   ],
-  "html/other-versions": ["gunn-schedule", "ugwita", "ugwa2", "ugwisha"],
+  "html/other-versions": [
+    "gunn-schedule",
+    "ugwita",
+    "ugwa2",
+    "ugwisha"
+  ],
   "html/periods": [],
   "html/periods-desc": [],
   "html/prev-chats": [],
   "html/reload": [],
-  "html/report-bugs": ["gh", "email"],
+  "html/report-bugs": [
+    "gh",
+    "email"
+  ],
   "html/s1a": [],
   "html/s1b": [],
   "html/s1c": [],
@@ -114,16 +182,26 @@
   "html/s6c": [],
   "html/safari-only": [],
   "html/schedule": [],
-  "html/sean-creds": ["name"],
+  "html/sean-creds": [
+    "name"
+  ],
   "html/select-date": [],
   "html/send": [],
-  "html/service-creds": ["search", "so", "mdn"],
+  "html/service-creds": [
+    "search",
+    "so",
+    "mdn"
+  ],
   "html/show-h": [],
   "html/show0": [],
-  "html/source": ["github"],
+  "html/source": [
+    "github"
+  ],
   "html/sponsor": [],
   "html/staff": [],
-  "html/staff-disclaimer": ["link"],
+  "html/staff-disclaimer": [
+    "link"
+  ],
   "html/staff-list": [],
   "html/staff-name": [],
   "html/support": [],
@@ -138,9 +216,14 @@
   "html/units": [],
   "html/use-iframe": [],
   "html/use-safari": [],
-  "html/using-assync": ["id", "leave"],
+  "html/using-assync": [
+    "id",
+    "leave"
+  ],
   "html/utilities": [],
-  "html/version": ["version"],
+  "html/version": [
+    "version"
+  ],
   "html/want-ugwa-normal": [],
   "other/add-asgn": [],
   "other/add-to-list": [],
